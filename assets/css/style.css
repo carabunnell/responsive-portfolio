@@ -1,0 +1,43 @@
+.header {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+  
+ }
+ /* grey bar navbar*/
+ .navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 30px;
+ }
+ /* menu link list*/
+ .collapse.navbar-collapse {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+ }
+  
+ #navbarNavAltMarkup {
+  
+ }
+ /*navbar button*/
+ .navbar-light .navbar-toggler {
+    background: purple;
+    position: absolute;
+    right: 50px;
+ }
+  
+ #pictureofme {
+    width: 200px;
+    height: auto;
+ }
+  
+ /* .nav-item.nav-link.active {
+    color: red;
+ }
+ .nav-item.nav-link:hover {
+  
+    color: red;
+ } */
+ /* .container {
+    background: lightcyan;
+ } */
+ 
