@@ -1,18 +1,33 @@
+body {
+    background-image: url(assets/images/images.jpg);
+    background-color: #cccccc; 
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
 .header {
     position: absolute;
-    top: 5px;
-    left: 50px;
+    top: 0px;
+    left: 10%;
+    background: red;
+    bottom: 0px;
+    padding: 10px 30px 10px 30px;
+    color: white;
   
  }
  /* grey bar navbar*/
  .navbar.navbar-expand-lg.navbar-light.bg-light {
     padding: 30px;
+    border-bottom: 1px solid red;
  }
  /* menu link list*/
  .collapse.navbar-collapse {
     position: absolute;
-    right: 50px;
+    right: 10%;
     top: 10px;
+    
  }
   
  #navbarNavAltMarkup {
@@ -25,9 +40,37 @@
     right: 50px;
  }
   
- #pictureofme {
-    width: 200px;
-    height: auto;
+.container {
+    
+    margin-top: 50px;
+}
+
+.main-background-in-container {
+    background: white;
+    border: 1px solid red;
+}
+
+.main-page-header {
+    padding: 25px 0px 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid darkgrey;
+}
+
+ .imagefluid {
+     width: 200px;
+     float: left;
+     margin-left: 30px;
+     margin-right: 30px;
+     /* margin-bottom: 30px; */
+    
+ }
+ .text-about-me-main {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px; 
+
  }
   
  /* .nav-item.nav-link.active {
